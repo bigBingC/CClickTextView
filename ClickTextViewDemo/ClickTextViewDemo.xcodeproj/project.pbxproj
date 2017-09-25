@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B4495A11F78DCDB00F9A9D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4495A01F78DCDB00F9A9D4 /* main.m */; };
+		3B4495A41F78DCDB00F9A9D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4495A31F78DCDB00F9A9D4 /* AppDelegate.m */; };
+		3B4495A71F78DCDB00F9A9D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4495A61F78DCDB00F9A9D4 /* ViewController.m */; };
+		3B4495AA1F78DCDB00F9A9D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B4495A81F78DCDB00F9A9D4 /* Main.storyboard */; };
+		3B4495AC1F78DCDB00F9A9D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B4495AB1F78DCDB00F9A9D4 /* Assets.xcassets */; };
+		3B4495AF1F78DCDB00F9A9D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B4495AD1F78DCDB00F9A9D4 /* LaunchScreen.storyboard */; };
+		3B4495BA1F78DCDB00F9A9D4 /* ClickTextViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4495B91F78DCDB00F9A9D4 /* ClickTextViewDemoTests.m */; };
+		3B4495C51F78DCDB00F9A9D4 /* ClickTextViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4495C41F78DCDB00F9A9D4 /* ClickTextViewDemoUITests.m */; };
+		3B4495D51F78DEFF00F9A9D4 /* CClickTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4495D41F78DEFF00F9A9D4 /* CClickTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B4495B61F78DCDB00F9A9D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B4495941F78DCDB00F9A9D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B44959B1F78DCDB00F9A9D4;
+			remoteInfo = ClickTextViewDemo;
+		};
+		3B4495C11F78DCDB00F9A9D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B4495941F78DCDB00F9A9D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B44959B1F78DCDB00F9A9D4;
+			remoteInfo = ClickTextViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B44959C1F78DCDB00F9A9D4 /* ClickTextViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickTextViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4495A01F78DCDB00F9A9D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B4495A21F78DCDB00F9A9D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B4495A31F78DCDB00F9A9D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B4495A51F78DCDB00F9A9D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B4495A61F78DCDB00F9A9D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B4495A91F78DCDB00F9A9D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B4495AB1F78DCDB00F9A9D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B4495AE1F78DCDB00F9A9D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B4495B01F78DCDB00F9A9D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B4495B51F78DCDB00F9A9D4 /* ClickTextViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickTextViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4495B91F78DCDB00F9A9D4 /* ClickTextViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickTextViewDemoTests.m; sourceTree = "<group>"; };
+		3B4495BB1F78DCDB00F9A9D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B4495C01F78DCDB00F9A9D4 /* ClickTextViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickTextViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4495C41F78DCDB00F9A9D4 /* ClickTextViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickTextViewDemoUITests.m; sourceTree = "<group>"; };
+		3B4495C61F78DCDB00F9A9D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B4495D31F78DEFF00F9A9D4 /* CClickTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CClickTextView.h; sourceTree = "<group>"; };
+		3B4495D41F78DEFF00F9A9D4 /* CClickTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CClickTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B4495991F78DCDB00F9A9D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4495B21F78DCDB00F9A9D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4495BD1F78DCDB00F9A9D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B4495931F78DCDB00F9A9D4 = {
+			isa = PBXGroup;
+			children = (
+				3B44959E1F78DCDB00F9A9D4 /* ClickTextViewDemo */,
+				3B4495B81F78DCDB00F9A9D4 /* ClickTextViewDemoTests */,
+				3B4495C31F78DCDB00F9A9D4 /* ClickTextViewDemoUITests */,
+				3B44959D1F78DCDB00F9A9D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B44959D1F78DCDB00F9A9D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B44959C1F78DCDB00F9A9D4 /* ClickTextViewDemo.app */,
+				3B4495B51F78DCDB00F9A9D4 /* ClickTextViewDemoTests.xctest */,
+				3B4495C01F78DCDB00F9A9D4 /* ClickTextViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B44959E1F78DCDB00F9A9D4 /* ClickTextViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3B4495D21F78DEE300F9A9D4 /* CClickTextView */,
+				3B4495A21F78DCDB00F9A9D4 /* AppDelegate.h */,
+				3B4495A31F78DCDB00F9A9D4 /* AppDelegate.m */,
+				3B4495A51F78DCDB00F9A9D4 /* ViewController.h */,
+				3B4495A61F78DCDB00F9A9D4 /* ViewController.m */,
+				3B4495A81F78DCDB00F9A9D4 /* Main.storyboard */,
+				3B4495AB1F78DCDB00F9A9D4 /* Assets.xcassets */,
+				3B4495AD1F78DCDB00F9A9D4 /* LaunchScreen.storyboard */,
+				3B4495B01F78DCDB00F9A9D4 /* Info.plist */,
+				3B44959F1F78DCDB00F9A9D4 /* Supporting Files */,
+			);
+			path = ClickTextViewDemo;
+			sourceTree = "<group>";
+		};
+		3B44959F1F78DCDB00F9A9D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B4495A01F78DCDB00F9A9D4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B4495B81F78DCDB00F9A9D4 /* ClickTextViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B4495B91F78DCDB00F9A9D4 /* ClickTextViewDemoTests.m */,
+				3B4495BB1F78DCDB00F9A9D4 /* Info.plist */,
+			);
+			path = ClickTextViewDemoTests;
+			sourceTree = "<group>";
+		};
+		3B4495C31F78DCDB00F9A9D4 /* ClickTextViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B4495C41F78DCDB00F9A9D4 /* ClickTextViewDemoUITests.m */,
+				3B4495C61F78DCDB00F9A9D4 /* Info.plist */,
+			);
+			path = ClickTextViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		3B4495D21F78DEE300F9A9D4 /* CClickTextView */ = {
+			isa = PBXGroup;
+			children = (
+				3B4495D31F78DEFF00F9A9D4 /* CClickTextView.h */,
+				3B4495D41F78DEFF00F9A9D4 /* CClickTextView.m */,
+			);
+			path = CClickTextView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B44959B1F78DCDB00F9A9D4 /* ClickTextViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B4495C91F78DCDB00F9A9D4 /* Build configuration list for PBXNativeTarget "ClickTextViewDemo" */;
+			buildPhases = (
+				3B4495981F78DCDB00F9A9D4 /* Sources */,
+				3B4495991F78DCDB00F9A9D4 /* Frameworks */,
+				3B44959A1F78DCDB00F9A9D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClickTextViewDemo;
+			productName = ClickTextViewDemo;
+			productReference = 3B44959C1F78DCDB00F9A9D4 /* ClickTextViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B4495B41F78DCDB00F9A9D4 /* ClickTextViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B4495CC1F78DCDB00F9A9D4 /* Build configuration list for PBXNativeTarget "ClickTextViewDemoTests" */;
+			buildPhases = (
+				3B4495B11F78DCDB00F9A9D4 /* Sources */,
+				3B4495B21F78DCDB00F9A9D4 /* Frameworks */,
+				3B4495B31F78DCDB00F9A9D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B4495B71F78DCDB00F9A9D4 /* PBXTargetDependency */,
+			);
+			name = ClickTextViewDemoTests;
+			productName = ClickTextViewDemoTests;
+			productReference = 3B4495B51F78DCDB00F9A9D4 /* ClickTextViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B4495BF1F78DCDB00F9A9D4 /* ClickTextViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B4495CF1F78DCDB00F9A9D4 /* Build configuration list for PBXNativeTarget "ClickTextViewDemoUITests" */;
+			buildPhases = (
+				3B4495BC1F78DCDB00F9A9D4 /* Sources */,
+				3B4495BD1F78DCDB00F9A9D4 /* Frameworks */,
+				3B4495BE1F78DCDB00F9A9D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B4495C21F78DCDB00F9A9D4 /* PBXTargetDependency */,
+			);
+			name = ClickTextViewDemoUITests;
+			productName = ClickTextViewDemoUITests;
+			productReference = 3B4495C01F78DCDB00F9A9D4 /* ClickTextViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B4495941F78DCDB00F9A9D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "崔冰";
+				TargetAttributes = {
+					3B44959B1F78DCDB00F9A9D4 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					3B4495B41F78DCDB00F9A9D4 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B44959B1F78DCDB00F9A9D4;
+					};
+					3B4495BF1F78DCDB00F9A9D4 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B44959B1F78DCDB00F9A9D4;
+					};
+				};
+			};
+			buildConfigurationList = 3B4495971F78DCDB00F9A9D4 /* Build configuration list for PBXProject "ClickTextViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B4495931F78DCDB00F9A9D4;
+			productRefGroup = 3B44959D1F78DCDB00F9A9D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B44959B1F78DCDB00F9A9D4 /* ClickTextViewDemo */,
+				3B4495B41F78DCDB00F9A9D4 /* ClickTextViewDemoTests */,
+				3B4495BF1F78DCDB00F9A9D4 /* ClickTextViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B44959A1F78DCDB00F9A9D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B4495AF1F78DCDB00F9A9D4 /* LaunchScreen.storyboard in Resources */,
+				3B4495AC1F78DCDB00F9A9D4 /* Assets.xcassets in Resources */,
+				3B4495AA1F78DCDB00F9A9D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4495B31F78DCDB00F9A9D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4495BE1F78DCDB00F9A9D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B4495981F78DCDB00F9A9D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B4495D51F78DEFF00F9A9D4 /* CClickTextView.m in Sources */,
+				3B4495A71F78DCDB00F9A9D4 /* ViewController.m in Sources */,
+				3B4495A41F78DCDB00F9A9D4 /* AppDelegate.m in Sources */,
+				3B4495A11F78DCDB00F9A9D4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4495B11F78DCDB00F9A9D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B4495BA1F78DCDB00F9A9D4 /* ClickTextViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4495BC1F78DCDB00F9A9D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B4495C51F78DCDB00F9A9D4 /* ClickTextViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B4495B71F78DCDB00F9A9D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B44959B1F78DCDB00F9A9D4 /* ClickTextViewDemo */;
+			targetProxy = 3B4495B61F78DCDB00F9A9D4 /* PBXContainerItemProxy */;
+		};
+		3B4495C21F78DCDB00F9A9D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B44959B1F78DCDB00F9A9D4 /* ClickTextViewDemo */;
+			targetProxy = 3B4495C11F78DCDB00F9A9D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B4495A81F78DCDB00F9A9D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B4495A91F78DCDB00F9A9D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B4495AD1F78DCDB00F9A9D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B4495AE1F78DCDB00F9A9D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B4495C71F78DCDB00F9A9D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B4495C81F78DCDB00F9A9D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B4495CA1F78DCDB00F9A9D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClickTextViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LY.ClickTextViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B4495CB1F78DCDB00F9A9D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClickTextViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LY.ClickTextViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B4495CD1F78DCDB00F9A9D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClickTextViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LY.ClickTextViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickTextViewDemo.app/ClickTextViewDemo";
+			};
+			name = Debug;
+		};
+		3B4495CE1F78DCDB00F9A9D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClickTextViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LY.ClickTextViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickTextViewDemo.app/ClickTextViewDemo";
+			};
+			name = Release;
+		};
+		3B4495D01F78DCDB00F9A9D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClickTextViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LY.ClickTextViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ClickTextViewDemo;
+			};
+			name = Debug;
+		};
+		3B4495D11F78DCDB00F9A9D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClickTextViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LY.ClickTextViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ClickTextViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B4495971F78DCDB00F9A9D4 /* Build configuration list for PBXProject "ClickTextViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4495C71F78DCDB00F9A9D4 /* Debug */,
+				3B4495C81F78DCDB00F9A9D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B4495C91F78DCDB00F9A9D4 /* Build configuration list for PBXNativeTarget "ClickTextViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4495CA1F78DCDB00F9A9D4 /* Debug */,
+				3B4495CB1F78DCDB00F9A9D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B4495CC1F78DCDB00F9A9D4 /* Build configuration list for PBXNativeTarget "ClickTextViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4495CD1F78DCDB00F9A9D4 /* Debug */,
+				3B4495CE1F78DCDB00F9A9D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B4495CF1F78DCDB00F9A9D4 /* Build configuration list for PBXNativeTarget "ClickTextViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4495D01F78DCDB00F9A9D4 /* Debug */,
+				3B4495D11F78DCDB00F9A9D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B4495941F78DCDB00F9A9D4 /* Project object */;
+}
